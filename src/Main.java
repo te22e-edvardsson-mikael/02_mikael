@@ -1,5 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        String[] leksaker = {"car", "cars", "carer", "carers", "Cereser"};
+
+      for (String i : leksaker){
+          System.out.println(i);
+      }
+
+        
     }
 }
